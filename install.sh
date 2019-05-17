@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo apt install -y docker.io geoip-bin
+sudo apt install -y curl wget docker.io geoip-bin
 sudo usermod -a -G docker $USER
 sudo cp ./changeip /usr/local/bin/changeip
 sudo chmod +x /usr/local/bin/changeip
